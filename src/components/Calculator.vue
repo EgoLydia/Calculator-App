@@ -34,6 +34,9 @@ export default {
     };
   },
   methods: {
+    clear() {
+      this.current = "";
+    },
     sign() {
       this.current =
         this.current.charAt(0) === "-"
